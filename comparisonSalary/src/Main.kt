@@ -1,13 +1,17 @@
 fun main(){
 
-    val a=15
+    val A=23
 
-    val b=4
+    val B=5
 
-    val c=3
+    val C=3
 
-    val d=7
+    val D=6
 
-    println(a*b/c-d%a)
+    println(A/B%C*D+1)
+
+    var isAbigger= A/B%C*D+1>=7
+
+    println(isAbigger)
 
 }
