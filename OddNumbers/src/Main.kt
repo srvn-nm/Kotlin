@@ -1,16 +1,12 @@
 fun main() {
 
-    var n=7
+    for(index1:Int in 1 until 7 step 3){
 
-    do{
+        for(index2:Int in 6 downTo 4){
 
-        println("n1=${n}")
+            println("/${index1}+${index2}=${index1+index2}/")
 
-    }while(n<7)
-
-    while(n<7){
-
-        println("n2=${n+1}")
+        }
 
     }
 
