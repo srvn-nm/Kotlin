@@ -1,13 +1,15 @@
 fun main() {
 
-    for(index1:Int in 1 until 7 step 3){
-
-        for(index2:Int in 6 downTo 4){
-
-            println("/${index1}+${index2}=${index1+index2}/")
-
-        }
-
+    for(index:Int in 1..1000 step 2){
+        println(index)
     }
+
+    /**
+     * var index1 = 1
+     * while (index1 < 1000) {
+     * println(index1)
+     * index1 += 2
+     * }
+     */
 
 }
