@@ -1,2 +1,2 @@
-class Bike: vehicle() {
+class Bike: Vehicle() {
 }
