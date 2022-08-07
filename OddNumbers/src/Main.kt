@@ -1,15 +1,15 @@
-fun main(){
+fun main() {
 
-    for(index1:Int in 1..6 step 2){
-
-        sum(index1,5)
-
+    for(index:Int in 1..1000 step 2){
+        println(index)
     }
 
-}
-
-fun sum(a:Int,b:Int) {
-
-    print ("*${a}+${b}=${a+b}*")
+    /**
+     * var index1 = 1
+     * while (index1 < 1000) {
+     * println(index1)
+     * index1 += 2
+     * }
+     */
 
 }
