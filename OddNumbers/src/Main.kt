@@ -1,25 +1,13 @@
-fun main(){
+fun main() {
 
-    var birth=23
+    var x=1
 
-    var A:String
+    while(x<=3){
 
-    A = when(birth){
+        println("salam maktabkhooneh ${x}")
 
-        in 1..31 -> "farvardin"
-
-        in 32..62->"ordibehesht"
-
-        !in 63..93->"not khordad"
-
-        else -> {
-
-            "mohem nist"
-
-        }
+        x=x+1
 
     }
-
-    println(A)
 
 }
