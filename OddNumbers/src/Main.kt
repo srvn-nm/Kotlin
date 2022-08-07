@@ -1,12 +1,16 @@
 fun main() {
 
-    var x=1
+    var n=7
 
-    while(x<=3){
+    do{
 
-        println("salam maktabkhooneh ${x}")
+        println("n1=${n}")
 
-        x=x+1
+    }while(n<7)
+
+    while(n<7){
+
+        println("n2=${n+1}")
 
     }
 
