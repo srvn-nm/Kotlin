@@ -1,10 +1,10 @@
 open class Vehicle constructor(price:Int, number:Int, color:String, capacity:Int) {
 
     //properties
-    protected var price: Int
-    protected var color: String
-    protected var capacity: Int
-    protected var number: Int
+    private var price: Int
+    private var color: String
+    private var capacity: Int
+    private var number: Int
 
     //constructor
     init {
@@ -39,7 +39,7 @@ open class Vehicle constructor(price:Int, number:Int, color:String, capacity:Int
         return "This ${this.color} car with ${this.capacity} capacity numbered ${this.number} and costs ${this.price}."
     }
 
-    fun energy(): String {
+    open fun energy(): String {
         return "Have fun riding using "
     }
 
