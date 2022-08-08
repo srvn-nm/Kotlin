@@ -1,4 +1,4 @@
-open class Car(price: Int, number: Int, color: String, capacity: Int, model:String) : Vehicle(price, number, color, capacity) {
+open class Car(price: Int, number: String, color: String, capacity: Int, model:String) : Vehicle(price, number, color, capacity) {
 
     private var model:String
 

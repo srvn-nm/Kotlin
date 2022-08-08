@@ -1,10 +1,10 @@
-open class Vehicle constructor(price:Int, number:Int, color:String, capacity:Int) {
+open class Vehicle constructor(price:Int, number:String, color:String, capacity:Int) {
 
     //properties
     private var price: Int
     private var color: String
     private var capacity: Int
-    private var number: Int
+    private var number: String
 
     //constructor
     init {
@@ -26,7 +26,7 @@ open class Vehicle constructor(price:Int, number:Int, color:String, capacity:Int
     }
 
     @JvmName("getNumber1")
-    fun getNumber(): Int {
+    fun getNumber(): String {
         return this.number
     }
 
