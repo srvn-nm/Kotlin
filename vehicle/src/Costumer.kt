@@ -1,6 +1,6 @@
-class Costumer constructor(bankBalance:Int, choice:Vehicle){
+class Costumer constructor(bankBalance:Int){
         var bankBalance: Int
-        lateinit var choice:Vehicle
+        private lateinit var choice:Vehicle
 
         init{
             this.bankBalance = bankBalance
