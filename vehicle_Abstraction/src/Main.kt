@@ -16,12 +16,22 @@ fun main() {
     val choice = readLine()
     if (choice == "1" && p1.bankBalance >= bmw.getPrice()){
         p1.buy(bmw)
+        bmw.energy()
+        bmw.start()
+        bmw.stop()
+        bmw.rideable()
     }
     else if(choice == "2" && p1.bankBalance >= tesla.getPrice()){
         p1.buy(tesla)
+        tesla.energy()
+        tesla.start()
+        tesla.stop()
+        tesla.rideable()
     }
     else if(choice == "3" && p1.bankBalance >= hikingBike.getPrice()){
         p1.buy(hikingBike)
+        hikingBike.energy()
+        hikingBike.ride()
     }
     else if(choice != "1" && choice!= "2" && choice!="3"){
         println("Oops wrong input!")
