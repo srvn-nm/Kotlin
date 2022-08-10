@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e41e2f41-d8ca-4e90-8bf2-b84ac49dbbba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AutoRiderCars.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vehicle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GivingRides.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +15,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -46,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660144735931</updated>
-      <workItem from="1660144737665" duration="192000" />
+      <workItem from="1660144737665" duration="633000" />
     </task>
     <servers />
   </component>

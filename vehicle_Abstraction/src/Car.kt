@@ -1,4 +1,4 @@
-open class Car(price: Int, number: String, color: String, capacity: Int, model:String) : Vehicle(price, number, color, capacity) {
+open class Car(price: Int, number: String, color: String, capacity: Int, model:String) : Vehicle(price, number, color, capacity), GivingRides {
 
     private var model:String
 
@@ -16,5 +16,9 @@ open class Car(price: Int, number: String, color: String, capacity: Int, model:S
 
     override fun energy(): String {
         return "Enjoy riding using Gas!"
+    }
+
+    override fun rideable() {
+        println("You can give a ride to 4 other people!")
     }
 }

@@ -1,0 +1,3 @@
+interface GivingRides {
+    fun rideable()
+}
