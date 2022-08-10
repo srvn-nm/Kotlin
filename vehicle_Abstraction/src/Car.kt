@@ -19,6 +19,6 @@ open class Car(price: Int, number: String, color: String, capacity: Int, model:S
     }
 
     override fun rideable() {
-        println("You can give a ride to 4 other people!")
+        println("You can give a ride to ${this.getCapacity()} other people!")
     }
 }
