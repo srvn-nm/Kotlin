@@ -13,4 +13,8 @@ open class Car(price: Int, number: String, color: String, capacity: Int, model:S
     fun stop():String{
         return "stops and safe to get off."
     }
+
+    override fun energy(): String {
+        return "Enjoy riding using Gas!"
+    }
 }
